@@ -75,3 +75,15 @@ header{
     list-style: none;
     padding: 10px;
 }
+
+/*estructura del contenido*/
+
+.main{
+    margin-top: 20px;
+    background-color: #03aac0;
+    border: 2px solid yellowgreen;
+    width: 90%;
+	max-width: 1200px;
+	margin: auto;
+	padding: 40px 0;
+}
