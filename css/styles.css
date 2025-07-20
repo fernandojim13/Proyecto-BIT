@@ -80,26 +80,4 @@ header{
 
 /*estructura del contenido*/
 
-main{
-    width: 90%;
-	max-width: 1200px;
-	margin: auto;
-    gap: 10px;
-    justify-items: center;
-    justify-content: center;
-    background-color: #03aac0;
-    border: 2px solid yellowgreen;
-    display: grid;
-    grid-template: 
-        "aaab" 300px
-        "aaab" 300px
-        "aaab" 300px / 1fr 1fr 1fr 1fr;
-}
 
-.elemento1{
-    grid-area: a;
-}
-
-.elemento2{
-    grid-area: b;
-}
