@@ -18,10 +18,11 @@ header{
     margin-top: 20px;
     background-color: #03aac0;
     border: 2px solid yellowgreen;
+    border-radius: 5px;
     width: 90%;
 	max-width: 1200px;
 	margin: auto;
-	padding: 40px 0;
+	padding: 10px 0;
     justify-items: center;
     justify-content: center;
 }
@@ -98,11 +99,37 @@ main {
     background-color: #03aac0;
     border: 2px solid yellowgreen;
     border-radius: 5px;
+    gap: 15px;
+}
+
+.parrafo1{
+    text-align: justify;
+    color: yellow;
+}
+
+.titulo-parrafo{
+    text-align: center;
+    color: yellow;
+}
+
+.contenedor-mapa{
+    position: relative;
+    left: 250px;
+    justify-content: center;
+    justify-items: center;
 }
 
 .mapa-cauca{
+    border: 2px solid yellowgreen;
+    padding: 10px;
     width: 300px;
     height: 300px;
+    border-radius: 5px;
+}
+
+p{
+    text-align: justify;
+    color: yellow;
 }
 
 aside {
@@ -113,6 +140,48 @@ aside {
     border-radius: 5px;
 }
 
+.contenido-lateral{
+    justify-content: center;
+    justify-items: center;
+}
+
+.navegador-lateral{
+    align-items: center;
+    justify-content: center;
+    justify-items: center;
+    color: yellow;
+    text-decoration: none;
+    list-style: none;
+    padding: 10px;
+}
+
+.lateral{
+    width: 150px;
+    border: 2px solid yellowgreen;
+    align-items: center;
+    justify-content: center;
+    justify-items: center;
+    color: yellow;
+    text-decoration: none;
+    list-style: none;
+    padding: 10px;
+}
+
+.item-lateral{
+    color: yellow;
+    text-decoration: none;
+    list-style: none;
+    padding: 10px;
+}
+
+.icono2{
+    display: grid;
+    justify-content: center;
+    width: 20px;
+    height: 20px;
+    border-radius: 100%;
+    border: 2px solid yellow;
+}
 
 
 
