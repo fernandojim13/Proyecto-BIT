@@ -1,0 +1,183 @@
+* {
+	padding: 0;
+	margin: 0;
+	box-sizing: border-box;
+}
+
+body {
+	background: lab(48.96% -26.76 -7.98);
+	color: #fff;
+	font-family: 'Roboto', sans-serif;
+    padding: 40px 0;
+    
+}
+
+/*estructura del encabezado*/
+
+header{
+    margin-top: 20px;
+    background-color: #03aac0;
+    border: 2px solid yellowgreen;
+    border-radius: 5px;
+    width: 90%;
+	max-width: 1200px;
+	margin: auto;
+	padding: 10px 0;
+    justify-items: center;
+    justify-content: center;
+}
+
+.contenedor-titulo{
+    display: grid;
+    justify-content: center;
+}
+
+.titulo-inicio{
+    font-size: 40px;
+    font-weight: 900;
+    color: yellow;
+}
+
+.contenedor-escudo{
+    display: grid;
+    justify-content: center;
+    margin-bottom: 20px;
+}
+
+.escudo1{
+    width: 200px;
+    height: 200px;
+    border-radius: 20%;
+    border: 2px solid yellow;
+    margin-right: 20px;
+}
+
+.contenedor-navegacion{
+    display: grid;
+    justify-content: center;
+}
+
+.navegacion-menu{
+    display: flex;
+}
+
+.icono{
+    width: 20px;
+    height: 20px;
+    border-radius: 100%;
+    border: 2px solid yellow;
+}
+
+.lista-menu{
+    display: flex;
+}
+
+.link-item{
+    color: yellow;
+    text-decoration: none;
+    list-style: none;
+    padding: 10px;
+}
+
+/*estructura del contenido de galeria*/
+
+.galeria {
+    max-width: 1200px;
+    margin: auto;
+    padding: 20px;
+    background-color: #03aac0;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.gallery-section {
+    margin-bottom: 40px;
+    background-color: #03aac0;
+    border: 2px solid yellowgreen;
+}
+
+.gallery-section h2 {
+    text-align: center;
+    color: #555;
+    margin-bottom: 20px;
+}
+
+.image-gallery {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+    /* Ajustado para más espacio vertical */
+    gap: 30px;
+    /* Aumentado el espacio entre ítems */
+    justify-content: center;
+}
+
+.gallery-item {
+    border: 1px solid #ddd;
+    padding: 15px;
+    /* Más padding */
+    text-align: center;
+    background-color: #fff;
+    border-radius: 5px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.05);
+    display: flex;
+    /* Para organizar el contenido verticalmente */
+    flex-direction: column;
+}
+
+.gallery-item img {
+    max-width: 100%;
+    height: auto;
+    display: block;
+    margin: 0 auto 15px auto;
+    /* Espacio debajo de la imagen */
+    border-radius: 3px;
+}
+
+.gallery-item h3 {
+    color: #444;
+    margin-top: 0;
+    margin-bottom: 10px;
+    font-size: 1.1em;
+}
+
+.gallery-item p {
+    font-size: 0.9em;
+    color: #666;
+    text-align: left;
+    /* Alinea el texto a la izquierda */
+    flex-grow: 1;
+    /* Permite que el párrafo ocupe el espacio restante */
+}
+
+/* estructura de un footer basico*/
+
+footer {
+    background-color: #03aac0;
+    border: 2px solid yellowgreen;
+    border-radius: 5px;
+    padding-top: 20px;
+    text-align: center;
+    border-radius: 8px;
+    gap: 10px;
+    max-width: 1200px; 
+    margin-left: auto; 
+    margin-right: auto; 
+}
+
+.footer-content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+}
+
+.social-links a {
+    color: yellow;
+    margin: 0 10px;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.social-links a:hover {
+    text-decoration: underline;
+}
