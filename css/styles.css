@@ -82,8 +82,8 @@ header{
 /*estructura del contenido*/
 
 main {
-    display: flex; /* Usamos flexbox para colocar los elementos uno al lado del otro */
-    gap: 20px; /* Espacio entre los elementos */
+    display: flex; 
+    gap: 20px; 
     max-width: 1200px;
     margin: 0 auto;
     background-color: #03aac0;
@@ -94,7 +94,7 @@ main {
 }
 
 .info-general {
-    flex: 3; /* Esta sección ocupará 3 partes del espacio disponible */
+    flex: 3; 
     padding: 20px;
     background-color: #03aac0;
     border: 2px solid yellowgreen;
@@ -133,7 +133,7 @@ p{
 }
 
 aside {
-    flex: 1; /* El aside ocupará 1 parte del espacio disponible */
+    flex: 1; 
     padding: 20px;
     background-color: #03aac0;
     border: 2px solid yellowgreen;
@@ -193,9 +193,9 @@ footer {
     text-align: center;
     border-radius: 8px;
     gap: 10px;
-    max-width: 1200px; /* Alineamos con el ancho máximo del main */
-    margin-left: auto; /* Centra el footer */
-    margin-right: auto; /* Centra el footer */
+    max-width: 1200px; 
+    margin-left: auto; 
+    margin-right: auto; 
 }
 
 .footer-content {
