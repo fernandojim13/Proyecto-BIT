@@ -78,3 +78,43 @@ header{
     list-style: none;
     padding: 10px;
 }
+
+/*estructura del contenido de platos tipicos*/
+
+
+
+/* estructura de un footer basico*/
+
+footer {
+    background-color: #03aac0;
+    border: 2px solid yellowgreen;
+    border-radius: 5px;
+    padding-top: 20px;
+    text-align: center;
+    border-radius: 8px;
+    gap: 10px;
+    max-width: 1200px; 
+    margin-left: auto; 
+    margin-right: auto; 
+}
+
+.footer-content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+}
+
+.social-links a {
+    color: yellow;
+    margin: 0 10px;
+    text-decoration: none;
+    font-weight: bold;
+}
+p{
+    color: yellow;
+}
+
+.social-links a:hover {
+    text-decoration: underline;
+}
